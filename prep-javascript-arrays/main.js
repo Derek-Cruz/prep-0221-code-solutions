@@ -14,11 +14,11 @@ console.log(languagesArray);
 languagesArray.shift();
 console.log(languagesArray);
 
-var thirdElement = ['javascript'];
+var thirdElement = languagesArray[2];
 console.log('3rd element in languagesArray', thirdElement);
 
-var arraylength = languagesArray;
-console.log('The final length of the array is', arraylength.length);
+var arraylength = languagesArray.length;
+console.log('The final length of the array is', arraylength);
 
-var lastItem = arraylength[arraylength.length - 1];
+var lastItem = languagesArray[languagesArray.length - 1];
 console.log('The last item in the array is', lastItem);
