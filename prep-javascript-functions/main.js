@@ -9,3 +9,9 @@ function convertHoursToMinutes(number) {
 }
 
 console.log(convertHoursToMinutes(60));
+
+function personalizeGreeting(name) {
+  return name;
+}
+
+console.log('"Hello', personalizeGreeting('World'), '!"');
