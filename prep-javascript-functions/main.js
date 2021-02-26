@@ -15,3 +15,9 @@ function personalizeGreeting(name) {
 }
 
 console.log(personalizeGreeting('Derek'));
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+console.log(addAndMultiplyBy5(10, 5));
