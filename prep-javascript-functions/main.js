@@ -33,3 +33,15 @@ function subtractTwoNumbers(num1, num2) {
 }
 
 console.log(subtractTwoNumbers(37, 10));
+
+function getFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+
+console.log(getFullName('Derek', 'Cruz'));
+
+function cube(number) {
+  return number * number * number;
+}
+
+console.log(cube(30));
